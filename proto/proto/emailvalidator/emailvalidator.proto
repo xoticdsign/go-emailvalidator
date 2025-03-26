@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package emailvalidator;
+
+option go_package = "gen/emailvalidator";
+
+service EmailValidator {
+    rpc Validate (ValidateRequest) returns (ValidateResponse);
+}
+
+message ValidateRequest {
+    string emailToValidate = 1;
+}
+
+message ValidateResponse {
+    bool emailIsValid = 1;
+}

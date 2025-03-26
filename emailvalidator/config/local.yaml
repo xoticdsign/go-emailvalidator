@@ -1,0 +1,4 @@
+env: "local"
+
+emailvalidator:
+  port: 5601
