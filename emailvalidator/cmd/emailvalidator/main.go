@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/xoticdsign/grpcemailvalidator/emailvalidator/internal/app"
-	"github.com/xoticdsign/grpcemailvalidator/emailvalidator/internal/config"
+	"github.com/xoticdsign/go-emailvalidator/emailvalidator/internal/app"
+	"github.com/xoticdsign/go-emailvalidator/emailvalidator/internal/config"
 )
 
 func mustRunLogger(env string) *slog.Logger {

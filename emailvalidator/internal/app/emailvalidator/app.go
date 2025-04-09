@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	evalservice "github.com/xoticdsign/grpcemailvalidator/emailvalidator/internal/service/emailvalidator"
-	evalproto "github.com/xoticdsign/grpcemailvalidator/proto/gen/emailvalidator"
+	evalservice "github.com/xoticdsign/go-emailvalidator/emailvalidator/internal/service/emailvalidator"
+	evalproto "github.com/xoticdsign/go-emailvalidator/proto/gen/emailvalidator"
 )
 
 type App struct {

@@ -3,7 +3,7 @@ package app
 import (
 	"log/slog"
 
-	eval "github.com/xoticdsign/grpcemailvalidator/emailvalidator/internal/app/emailvalidator"
+	eval "github.com/xoticdsign/go-emailvalidator/emailvalidator/internal/app/emailvalidator"
 )
 
 type App struct {

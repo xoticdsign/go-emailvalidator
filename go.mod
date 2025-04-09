@@ -1,4 +1,4 @@
-module github.com/xoticdsign/grpcemailvalidator
+module github.com/xoticdsign/go-emailvalidator
 
 go 1.22.5
 
